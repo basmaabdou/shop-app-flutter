@@ -1,16 +1,22 @@
-# shop_app
+Shop App
 
-A new Flutter project.
+A Flutter e-commerce app: browse products and categories, search, and manage favorites.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<!-- ## Screenshots <p float="left"> <img src="screenshots/home.png" width="200" /> <img src="screenshots/categories.png" width="200" /> <img src="screenshots/favorites.png" width="200" /> </p> -->
+Features
+Onboarding, login and register
+Products and categories
+Product search
+Favorites
+Settings and profile
+Tech Stack
+Flutter / Dart
+State management: Bloc / Cubit
+Networking: Dio (REST APIs, tested with Postman)
+Local storage: shared_preferences
+Run the project
+bash
+git clone https://github.com/basmaabdou/shop-app-flutter.git
+cd shop-app-flutter
+flutter pub get
+flutter run
